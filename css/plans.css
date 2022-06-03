@@ -1,0 +1,32 @@
+body {
+    background-image:url("../img/price-bg-img.jpg");
+    background-size: cover;
+    max-width: 100%;
+}
+
+.bg-info {
+    background-color: #E7E7E7 !important;
+}
+
+.card-body ul {
+    text-align: left;
+}
+
+.btn-primary {
+    background-color: #6D62FC !important;
+    border: 1px #6D62FC solid;
+}
+
+.list-group-item.active {
+    background-color: #EA6183 !important;
+    border: 1px #EA6183 solid;
+}
+
+.contact-info a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #6D62FC;
+}

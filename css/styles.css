@@ -1,0 +1,104 @@
+body {
+    background-image: url("../img/hero-image.jpg");
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+footer {
+    background-color: #060832;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bg-light {
+    background-color: #060832 !important;
+}
+
+.nav-link, .navbar-text, .navbar-toggler-icon, .navbar-toggler {
+    color:  white !important;
+}
+
+.nav-link:hover {
+    color:#e94572 !important;
+}
+
+nav .navbar-brand, a .navbar-brand {
+    
+    color: #e94572 !important;
+}
+
+header .navbar-brand {
+    font-family: 'Noto Serif', serif;
+}
+
+.banner h1 {
+    color: #999CA0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.banner p {
+    color: white;
+}
+
+.banner a {
+    display: inline-block;
+    background-color: #49257D;
+    border: 5px solid #CBCCCF;
+    border-radius: 10px;
+    color: #CBCCCF;
+    width: 10rem;
+    text-decoration: none;
+
+}
+
+.banner a:hover {
+    background-color: #AD3881;
+}
+
+footer a{
+    color: #CBCCCF;
+}
+
+footer a:hover {
+    color: #6D62FC;
+}
+
+.copy .navbar-brand {
+    font-size: 0.75rem;
+}
+
+
+.socMed ul {
+    list-style-type: none;
+}
+
+.socMed li {
+    display: inline-block;
+    padding-left: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner h1 {
+        color: #999CA0;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .banner a {
+        display: inline-block;
+        background-color: #49257D;
+        border: 3px solid #CBCCCF;
+        border-radius: 7px;
+        color: #CBCCCF;
+        width: 7rem;
+        text-decoration: none;
+    
+    }
+
+}
+
+

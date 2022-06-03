@@ -1,0 +1,32 @@
+body {
+    background-color: #F0ACDA;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h2, h4 {
+    color: #49257D;
+}
+
+h2 {
+    font-family: 'Noto Serif';
+}
+
+.signup-btn a {
+    background-color: #49257D;
+    display: inline-block;
+    border: 5px solid white;
+    border-radius: 10px;
+    color: white;
+    width: 10rem;
+    text-decoration: none;
+}
+
+.signup-btn a:hover {
+    background-color: white;
+    border: 5px solid #49257D;
+    color: #49257D;
+}
+
+hr {
+    color: #49257D;
+}

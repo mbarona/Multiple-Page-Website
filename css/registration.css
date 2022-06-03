@@ -1,0 +1,36 @@
+body {
+    background-color: #CBCCCF;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h2, h4 {
+    color: #e94572;
+}
+
+h2 {
+    font-family: 'Noto Serif';
+}
+
+/* ::-webkit-input-placeholder {
+    font-size: 0.9rem;
+} */
+
+.signup-btn a {
+    background-color: #e94572;
+    display: inline-block;
+    border: 5px solid white;
+    border-radius: 10px;
+    color: white;
+    width: 10rem;
+    text-decoration: none;
+}
+
+.signup-btn a:hover {
+    background-color: white;
+    border: 5px solid #e94572;
+    color: #e94572;
+}
+
+hr {
+    color: #e94572;
+}
